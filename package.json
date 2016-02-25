@@ -1,0 +1,24 @@
+{
+  "name": "generic-js-env",
+  "version": "1.1.0",
+  "description": "Generic JavaScript environment setup.",
+  "bin": {
+    "babel-env": "./bin/generic-js-env.js"
+  },
+  "scripts": {
+    "postinstall": "node ./bin/generic-js-env.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epsitec-sa/generic-js-env.git"
+  },
+  "keywords": [
+    "environment"
+  ],
+  "author": "Epsitec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epsitec-sa/generic-js-env/issues"
+  },
+  "homepage": "https://github.com/epsitec-sa/generic-js-env#readme"
+}
