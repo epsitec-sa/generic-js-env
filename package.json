@@ -1,6 +1,6 @@
 {
   "name": "generic-js-env",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Generic JavaScript environment setup.",
   "bin": {
     "babel-env": "./bin/generic-js-env.js"
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/epsitec-sa/generic-js-env/issues"
   },
-  "homepage": "https://github.com/epsitec-sa/generic-js-env#readme"
+  "homepage": "https://github.com/epsitec-sa/generic-js-env#readme",
+  "dependencies": {
+    "require-self": "^0.1.0",
+    "rimraf": "^2.5.2"
+  }
 }

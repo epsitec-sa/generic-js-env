@@ -21,3 +21,8 @@ If you need also `.babelrc` and its settings, also specify the
 ```
 npm install --save-dev babel-env
 ```
+
+# Includes packages
+
+Most of our JavaScript projects need `rimraf` and `require-self`.
+They will be installed together with `generic-js-env`.
