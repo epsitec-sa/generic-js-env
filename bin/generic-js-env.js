@@ -15,8 +15,8 @@ if (cwd.endsWith (suffix)) {
   var regex = /\r\n/g;
   var newline = '\n';
   if (process.platform === 'win32') {
-    regex = /[^\r]\n/g;
-    newline = '\r\n';
+    regex = /([^\r])\n/g;
+    newline = '$1\r\n';
   }
 
   files.forEach (function (file) {
