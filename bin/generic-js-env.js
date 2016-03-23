@@ -21,6 +21,6 @@ if (cwd.endsWith (suffix)) {
 
   files.forEach (function (file) {
     var data = fs.readFileSync (path.join (cwd, 'templates', file));
-    fs.writeFileSync (path.join (root, file), data.replace (regex, newline));
+    fs.writeFileSync (path.join (root, file), data.toString ().replace (regex, newline));
   });
 }
