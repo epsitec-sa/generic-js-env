@@ -26,3 +26,12 @@ npm install --save-dev babel-env
 
 Most of our JavaScript projects need `rimraf` and `require-self`.
 They will be installed together with `generic-js-env`.
+
+# Notes
+
+With the `linter-jscs` 1.7.3 in atom 4.0.1, files which have multiple
+very long lines make the editor drop to a crawl.
+See [issue](https://github.com/AtomLinter/linter-jscs/issues/241).
+
+For now, the only solution I've come up is to extend the limit for
+`maximumLineLength` to a large number, such as `200`.
