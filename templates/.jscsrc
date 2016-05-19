@@ -54,7 +54,7 @@
 
   "validateIndentation":                      2,
   "validateParameterSeparator":               ", ",
-  "validateQuoteMarks":                       { "mark": "'", "ignoreJSX": true },
+  "validateQuoteMarks":                       { "mark": "'", "escape": false, "ignoreJSX": true },
 
   "maximumLineLength": {
     "value":                                  200,
