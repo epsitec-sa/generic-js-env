@@ -1,6 +1,5 @@
 'use strict';
-/* global require */
-/* global process */
+/* global require process */
 
 var fs = require ('fs');
 var path = require ('path');
