@@ -1,6 +1,6 @@
 {
   "name": "generic-js-env",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Generic JavaScript environment setup.",
   "bin": {
     "babel-env": "./bin/generic-js-env.js"

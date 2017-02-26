@@ -11,6 +11,7 @@ npm install --save-dev generic-js-env
 Will create following files in the root of the project:
 
 * `.editorconfig`
+* `.eslintrc`
 * `.gitattributes`
 * `.jscrc`
 * `.jshintrc`
