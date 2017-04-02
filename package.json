@@ -1,6 +1,6 @@
 {
   "name": "generic-js-env",
-  "version": "1.9.2",
+  "version": "2.0.0",
   "description": "Generic JavaScript environment setup.",
   "bin": {
     "babel-env": "./bin/generic-js-env.js"
@@ -22,9 +22,9 @@
   },
   "homepage": "https://github.com/epsitec-sa/generic-js-env#readme",
   "dependencies": {
-    "eslint": "^3.16.1",
-    "eslint-plugin-react": "^6.10.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
     "require-self": "^0.1.0",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.6.1"
   }
 }

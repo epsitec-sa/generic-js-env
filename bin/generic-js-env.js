@@ -1,4 +1,5 @@
 'use strict';
+
 /* global require process */
 
 var fs = require ('fs');

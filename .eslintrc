@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {"jsx": true, "experimentalObjectRestSpread": true}
+  },
+  "rules": {
+    "semi": 2,
+    "react/prop-types": [0],
+    "quotes": ["error", "single"],
+    "quote-props": ["error", "consistent-as-needed"]
+  }
+}
