@@ -63,7 +63,6 @@
     "no-unused-vars": [2, {"varsIgnorePattern": "[iI]gnored", "argsIgnorePattern": "^_"}],
     "no-use-before-define": [2, {"functions": false }],
     "object-curly-spacing": ["error", "never", { "objectsInObjects": false }],
-    "object-property-newline": "error",
     "operator-linebreak": [2, "after"],
     "padded-blocks": 0,
     "quote-props": ["error", "consistent-as-needed"],
